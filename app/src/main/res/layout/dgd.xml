@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444141">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:contentDescription="TODO"
+        android:importantForAccessibility="no"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/__max"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="277dp"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#444141"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:tint="#D1CECE"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="633dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="282dp"
+        android:layout_height="32dp"
+        android:fontFamily="monospace"
+        android:text="Томатный суп - пюре"
+        android:textColor="#A09C9C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="310dp"
+        android:layout_height="173dp"
+        android:fontFamily="serif"
+        android:text="Помидоры - 630 г Картофель - 200 г Томатная паста - 70 г Сливки (10-15%) - 40 г Лук репчатый - 80 г Чеснок - 1 зубчик Масло растительное - 1 ст. ложка Соль - 1/2 ч. ложки Перец черный молотый - на кончике ножа Петрушка - 5 г Вода - 600 мл"
+        android:textAlignment="center"
+        android:textColor="#EFEAEA"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="384dp"
+        android:layout_height="199dp"
+        android:fontFamily="serif"
+        android:text="Томатный суп — овощной суп, приготовленный из томатов. Часто используется как ингредиент в более сложных блюдах, и, в отличие от множества других острых супов, может подаваться как горячим, так и холодным. Его обычно делают из кусочков томата, или из пюре томата, или из того и другого. Консервированная версия супа очень популярна в Соединенных Штатах и обычно ассоциируется с Campbell Soup. В Великобритании томатный суп Heinz является одним из самых наиболее популярных супов."
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="71dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444141"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="366dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="Здесь вы можете найти блюдо для себя"
+        android:textAlignment="center"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#586DDB"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="10sp"
+        android:text=" Поиск рецептов"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="472dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="214dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#41DA0E"
+        android:fontFamily="monospace"
+        android:text="Сохраненные рецепты"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="146dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#F4EFEF"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Кулинария"
+        android:textColor="#A09C9C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints,TextSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:fontFamily="serif"
+        android:text="В приложении &quot;Кулинария&quot; вы можете найти разные блюда и их рецепты."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#767171"
+        android:text="Настройки"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="593dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="text"
+        android:text="Описание приложения:"
+        android:textColor="#9F9B9B"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:background="#444141"
+        android:tint="#D1CECE"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="649dp"
+        tools:ignore="ContentDescription,MissingConstraints,UseAppTint" />
+</androidx.constraintlayout.widget.ConstraintLayout>
